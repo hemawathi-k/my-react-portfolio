@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Content {
+    height: calc(100vh - 30px);
+    background: linear-gradient(rgba(2, 2, 2, 0.562), rgb(0, 0, 0)),
+                url('../assets/bg.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.innercontent{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7px;
+}  
+  
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size:13px;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:goldenrod;
+    font-size:24px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    font-size:10px;
+    text-align: center;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color:rgb(15, 15, 15);
+    color: white;
+    text-decoration: none;
+    border-radius:20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size:9px;
+    border:solid 1px goldenrod;
+  }
+  
+  .download-btn:hover {
+    background-color:rgb(29, 29, 29);
+  }
+  
+  .type-effect {
+    color: goldenrod;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid goldenrod;
+    width: 0;
+    animation: typing 2s steps(13) forwards, blink 0.7s step-end infinite;
+  }
+  
+  @keyframes typing {
+    to {
+      width: 13ch;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  

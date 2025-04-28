@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.about-layout{
+    height: 100vh;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.right-content{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#h1{
+    color: goldenrod;
+    font-size: 18px;
+}
+p{
+    line-height: 15px;
+    font-size: 9px;
+    text-align: left;
+}
+.download-btn1 {
+    display:block;
+    max-width: 60px;
+    padding: 4px 8px;
+    background-color:goldenrod;
+
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius:20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size:9px;
+    border:solid 1px goldenrod;
+  }
+  
+  .download-btn1:hover {
+    background-color:rgb(29, 29, 29);
+  }

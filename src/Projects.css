@@ -1,0 +1,57 @@
+.projects-section {
+  padding: 20px;
+  background-color: #111;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.projects-section h1 {
+  font-size: 1rem;
+  color: goldenrod;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  overflow-y: auto;
+  padding: 0 5px;
+}
+.project-card {
+  position: relative;
+  background: #222;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  height:auto;
+    padding: 0;      
+    margin: 0;
+    background: none; 
+
+  
+}
+
+
+
+.card-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* modern approach */
+  overflow: hidden;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 98%;
+  object-fit: cover;
+  display: block;
+}
+
